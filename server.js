@@ -16,7 +16,7 @@ app.use(express.static("public"))
 
 
 //routes 
-//app.use("/api", apiRoutes);
+app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
 // start the server to begin listening 
