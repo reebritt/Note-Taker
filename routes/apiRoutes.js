@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const fs = require('fs');
+//const fs = require('fs');
 const savedNote = [];
 
     let postNote = savedNote.length;
